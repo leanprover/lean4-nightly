@@ -1,0 +1,586 @@
+-*- mode: compilation; default-directory: "~/projects/lean4/tests/lean/run/" -*-
+Compilation started at Fri Feb  5 11:06:05
+
+/Users/leonardodemoura/.elan/bin/lean  /Users/leonardodemoura/projects/lean4/tests/lean/run/monotone.lean
+[Meta.isDefEq]
+    [Meta.isDefEq.step] Sort ?u.310 =?= Type ?u.311
+    [Meta.isLevelDefEq.step] ?u.310 =?= ?u.311+1
+    [Meta.isDefEq] Type ?u.311 =?= Type ?u.311 ... success
+[Meta.isDefEq]
+    [Meta.isDefEq.step] Sort ?u.313 =?= Type ?u.314
+    [Meta.isLevelDefEq.step] ?u.313 =?= ?u.314+1
+    [Meta.isDefEq] Type ?u.314 =?= Type ?u.314 ... success
+  [Meta.isDefEq]
+      [Meta.isDefEq.step] Type ?u.314 =?= ?m.311
+      [Meta.isDefEq] Type ?u.314 [nonassignable] =?= ?m.311 [assignable]
+        [Meta.isDefEq.assign]
+          [Meta.isDefEq.assign] ?m.311 := Type ?u.314
+          [Meta.isDefEq.assign.beforeMkLambda] ?m.311 [] := Type ?u.314
+          [Meta.isDefEq.assign.checkTypes]
+            [Meta.isDefEq.step] Sort ?u.310 =?= Type (?u.314 + 1)
+            [Meta.isLevelDefEq.step] ?u.310 =?= ?u.314+2
+            [Meta.isDefEq.assign.final] ?m.311 := Type ?u.314
+      [Meta.isDefEq] Type ?u.314 =?= Type ?u.314 ... success
+  [Meta.isDefEq]
+    [Meta.isDefEq.step] Type ?u.314 =?= Type ?u.314
+    [Meta.isDefEq] Type ?u.314 =?= Type ?u.314 ... success
+  [Meta.isDefEq]
+    [Meta.isDefEq.step] Type ?u.314 =?= Type ?u.314
+    [Meta.isLevelDefEq.step] ?u.313 =?= ?u.314+1
+    [Meta.isDefEq] Type ?u.314 =?= Type ?u.314 ... success
+[Meta.isDefEq]
+    [Meta.isDefEq.step] Sort ?u.316 =?= Type ?u.317
+    [Meta.isLevelDefEq.step] ?u.316 =?= ?u.317+1
+    [Meta.isDefEq] Type ?u.317 =?= Type ?u.317 ... success
+[Meta.isDefEq]
+    [Meta.isDefEq.step] Sort ?u.319 =?= Type ?u.320
+    [Meta.isLevelDefEq.step] ?u.319 =?= ?u.320+1
+    [Meta.isDefEq] Type ?u.320 =?= Type ?u.320 ... success
+  [Meta.isDefEq]
+      [Meta.isDefEq.step] Type ?u.320 =?= ?m.317
+      [Meta.isDefEq] Type ?u.320 [nonassignable] =?= ?m.317 [assignable]
+        [Meta.isDefEq.assign]
+          [Meta.isDefEq.assign] ?m.317 := Type ?u.320
+          [Meta.isDefEq.assign.beforeMkLambda] ?m.317 [] := Type ?u.320
+          [Meta.isDefEq.assign.checkTypes]
+            [Meta.isDefEq.step] Sort ?u.316 =?= Type (?u.320 + 1)
+            [Meta.isLevelDefEq.step] ?u.316 =?= ?u.320+2
+            [Meta.isDefEq.assign.final] ?m.317 := Type ?u.320
+      [Meta.isDefEq] Type ?u.320 =?= Type ?u.320 ... success
+  [Meta.isDefEq]
+    [Meta.isDefEq.step] Type ?u.320 =?= Type ?u.320
+    [Meta.isDefEq] Type ?u.320 =?= Type ?u.320 ... success
+  [Meta.isDefEq]
+    [Meta.isDefEq.step] Type ?u.320 =?= Type ?u.320
+    [Meta.isLevelDefEq.step] ?u.319 =?= ?u.320+1
+    [Meta.isDefEq] Type ?u.320 =?= Type ?u.320 ... success
+[Meta.isDefEq]
+      [Meta.isDefEq.step] Sort ?u.323 =?= Type ?u.314
+      [Meta.isLevelDefEq.step] ?u.323 =?= ?u.314+1
+      [Meta.isDefEq] Type ?u.314 =?= Type ?u.314 ... success
+  [Meta.isDefEq]
+      [Meta.isDefEq.step] Sort ?u.325 =?= Type ?u.320
+      [Meta.isLevelDefEq.step] ?u.325 =?= ?u.320+1
+      [Meta.isDefEq] Type ?u.320 =?= Type ?u.320 ... success
+[Meta.isDefEq]
+      [Meta.isDefEq.step] ?m.341 =?= ?m.338
+      [Meta.isDefEq] ?m.341 [assignable] =?= ?m.338 [assignable]
+        [Meta.isDefEq.assign]
+          [Meta.isDefEq.assign] ?m.341 := ?m.338
+          [Meta.isDefEq.assign.beforeMkLambda] ?m.341 [] := ?m.338
+          [Meta.isDefEq.assign.checkTypes]
+            [Meta.isDefEq.step] Sort ?u.340 =?= Sort ?u.337
+            [Meta.isLevelDefEq.step] ?u.340 =?= ?u.337
+            [Meta.isDefEq.assign.final] ?m.341 := ?m.338
+      [Meta.isDefEq] ?m.338 =?= ?m.338 ... success
+    [Meta.isDefEq]
+      [Meta.isDefEq.step] ?m.338 =?= ?m.346
+      [Meta.isDefEq] ?m.338 [assignable] =?= ?m.346 [assignable]
+        [Meta.isDefEq.assign]
+          [Meta.isDefEq.assign] ?m.338 := ?m.346
+          [Meta.isDefEq.assign.beforeMkLambda] ?m.338 [] := ?m.348
+          [Meta.isDefEq.assign.checkTypes]
+            [Meta.isDefEq.step] Sort ?u.337 =?= Type ?u.345
+            [Meta.isLevelDefEq.step] ?u.337 =?= ?u.345+1
+            [Meta.isDefEq.assign.final] ?m.338 := ?m.348
+      [Meta.isDefEq] ?m.348 =?= ?m.348 ... success
+    [Meta.isDefEq]
+      [Meta.isDefEq.step] ?m.348 =?= ?m.348
+      [Meta.isDefEq] ?m.348 =?= ?m.348 ... success
+    [Meta.isDefEq]
+      [Meta.isDefEq.step] Sort ?u.344 =?= Prop
+      [Meta.isLevelDefEq.step] ?u.344 =?= 0
+      [Meta.isDefEq] Prop =?= Prop ... success
+    [Meta.synthInstance] HasLessEq.{?u.345} ?m.348 ==> HasLessEq.{?u.345} ?m.348
+    [Meta.synthInstance]
+      [Meta.synthInstance] main goal HasLessEq.{?u.345} ?m.348
+      [Meta.synthInstance.newSubgoal] HasLessEq.{?u.345} ?m.348
+      [Meta.synthInstance.globalInstances] HasLessEq.{?u.345}
+        ?m.348, [@Preorder.toHasLessEq.{?u.350},
+       instHasLessEqUInt32,
+       instHasLessEqUInt8,
+       instHasLessEqUInt64,
+       instHasLessEqUInt16,
+       @List.lessEq.{?u.351},
+       instHasLessEqFloat,
+       instHasLessEqNat,
+       instHasLessEqUSize,
+       Char.instHasLessEqChar,
+       @instHasLessEqFin,
+       Int.instHasLessEqInt]
+      [Meta.synthInstance.generate] instance Int.instHasLessEqInt
+      [Meta.synthInstance.tryResolve]
+        [Meta.synthInstance.tryResolve] HasLessEq.{?u.345} ?m.348 =?= HasLessEq.{0} Int
+        [Meta.isDefEq]
+          [Meta.isDefEq.step] HasLessEq.{?u.345} ?m.348 =?= HasLessEq.{0} Int
+          [Meta.isDefEq.step] ?m.348 =?= Int
+            [Meta.isDefEq] ?m.348 [nonassignable] =?= Int [nonassignable]
+              [Meta.isDefEq.stuck] ?m.348 =?= Int
+  [Meta.isDefEq]
+          [Meta.isDefEq.step] α =?= ?m.348
+          [Meta.isDefEq] α [nonassignable] =?= ?m.348 [assignable]
+            [Meta.isDefEq.assign]
+              [Meta.isDefEq.assign] ?m.348 := α
+              [Meta.isDefEq.assign.beforeMkLambda] ?m.348 [] := α
+              [Meta.isDefEq.assign.checkTypes]
+                [Meta.isDefEq.step] Type ?u.345 =?= Type ?u.314
+                [Meta.isLevelDefEq.step] ?u.345 =?= ?u.314
+                [Meta.isDefEq.assign.final] ?m.348 := α
+          [Meta.isDefEq] α =?= α ... success
+      [Meta.isDefEq]
+        [Meta.isDefEq.step] α =?= α
+        [Meta.isDefEq] α =?= α ... success
+    [Meta.isDefEq]
+          [Meta.isDefEq.step] α =?= α
+          [Meta.isDefEq] α =?= α ... success
+      [Meta.isDefEq]
+        [Meta.isDefEq.step] α =?= α
+        [Meta.isDefEq] α =?= α ... success
+    [Meta.isDefEq]
+      [Meta.isDefEq.step] β =?= β
+      [Meta.isDefEq] β =?= β ... success
+    [Meta.isDefEq]
+      [Meta.isDefEq.step] β =?= ?m.356
+      [Meta.isDefEq] β [nonassignable] =?= ?m.356 [assignable]
+        [Meta.isDefEq.assign]
+          [Meta.isDefEq.assign] ?m.356 := β
+          [Meta.isDefEq.assign.beforeMkLambda] ?m.356 [] := β
+          [Meta.isDefEq.assign.checkTypes]
+            [Meta.isDefEq.step] Type ?u.355 =?= Type ?u.320
+            [Meta.isLevelDefEq.step] ?u.355 =?= ?u.320
+            [Meta.isDefEq.assign.final] ?m.356 := β
+      [Meta.isDefEq] β =?= β ... success
+    [Meta.isDefEq]
+      [Meta.isDefEq.step] β =?= β
+      [Meta.isDefEq] β =?= β ... success
+    [Meta.isDefEq]
+      [Meta.isDefEq.step] Sort ?u.354 =?= Prop
+      [Meta.isLevelDefEq.step] ?u.354 =?= 0
+      [Meta.isDefEq] Prop =?= Prop ... success
+    [Meta.synthInstance] HasLessEq.{?u.320} β ==> HasLessEq.{?u.320} β
+    [Meta.synthInstance]
+      [Meta.synthInstance] main goal HasLessEq.{?u.320} β
+      [Meta.synthInstance.newSubgoal] HasLessEq.{?u.320} β
+      [Meta.synthInstance.globalInstances] HasLessEq.{?u.320} β, [@Preorder.toHasLessEq.{?u.359}]
+      [Meta.synthInstance.generate] instance @Preorder.toHasLessEq.{?u.359}
+      [Meta.synthInstance.tryResolve]
+        [Meta.synthInstance.tryResolve] HasLessEq.{?u.320} β =?= HasLessEq.{?u.359} ?m.360
+        [Meta.isDefEq]
+          [Meta.isDefEq.step] HasLessEq.{?u.320} β =?= HasLessEq.{?u.359} ?m.360
+          [Meta.isDefEq.step] β =?= ?m.360
+            [Meta.isDefEq] β [nonassignable] =?= ?m.360 [assignable]
+              [Meta.isDefEq.assign]
+                [Meta.isDefEq.assign] ?m.360 := β
+                [Meta.isDefEq.assign.beforeMkLambda] ?m.360 [] := β
+                [Meta.isDefEq.assign.checkTypes]
+                  [Meta.isDefEq.step] Type ?u.359 =?= Type ?u.320
+                  [Meta.isLevelDefEq.step] ?u.359 =?= ?u.320
+                  [Meta.isDefEq.assign.final] ?m.360 := β
+            [Meta.isLevelDefEq.step] ?u.320 =?= ?u.359
+          [Meta.isDefEq] HasLessEq.{?u.320} β =?= HasLessEq.{?u.320} β ... success
+        [Meta.isDefEq]
+          [Meta.isDefEq.step] ?m.358 =?= @Preorder.toHasLessEq.{?u.320} β ?m.361
+          [Meta.isDefEq] ?m.358 [assignable] =?= @Preorder.toHasLessEq.{?u.320} β ?m.361 [nonassignable]
+            [Meta.isDefEq.assign]
+              [Meta.isDefEq.assign] ?m.358 := @Preorder.toHasLessEq.{?u.320} β ?m.361
+              [Meta.isDefEq.assign.beforeMkLambda] ?m.358 [] := @Preorder.toHasLessEq.{?u.320} β ?m.361
+              [Meta.isDefEq.assign.checkTypes]
+                [Meta.isDefEq.step] HasLessEq.{?u.320} β =?= HasLessEq.{?u.320} β
+                [Meta.isDefEq.assign.final] ?m.358 := @Preorder.toHasLessEq.{?u.320} β ?m.361
+          [Meta.isDefEq] @Preorder.toHasLessEq.{?u.320} β ?m.361 =?= @Preorder.toHasLessEq.{?u.320} β ?m.361 ... success
+        [Meta.synthInstance.tryResolve] success
+      [Meta.synthInstance.newSubgoal] Preorder.{?u.320} β
+      [Meta.synthInstance.globalInstances] Preorder.{?u.320} β, []
+      [Meta.synthInstance.generate] instance inst✝
+      [Meta.synthInstance.tryResolve]
+        [Meta.synthInstance.tryResolve] Preorder.{?u.320} β =?= Preorder.{?u.320} β
+        [Meta.isDefEq]
+          [Meta.isDefEq.step] Preorder.{?u.320} β =?= Preorder.{?u.320} β
+          [Meta.isDefEq.step] β =?= β
+            [Meta.isLevelDefEq.step] ?u.359 =?= ?u.320
+          [Meta.isDefEq] Preorder.{?u.320} β =?= Preorder.{?u.320} β ... success
+        [Meta.isDefEq]
+          [Meta.isDefEq.step] ?m.361 =?= inst✝
+          [Meta.isDefEq] ?m.361 [assignable] =?= inst✝ [nonassignable]
+            [Meta.isDefEq.assign]
+              [Meta.isDefEq.assign] ?m.361 := inst✝
+              [Meta.isDefEq.assign.beforeMkLambda] ?m.361 [] := inst✝
+              [Meta.isDefEq.assign.checkTypes]
+                [Meta.isDefEq.step] Preorder.{?u.320} β =?= Preorder.{?u.320} β
+                [Meta.isDefEq.step] β =?= β
+                  [Meta.isLevelDefEq.step] ?u.359 =?= ?u.320
+                [Meta.isDefEq.assign.final] ?m.361 := inst✝
+          [Meta.isDefEq] inst✝ =?= inst✝ ... success
+        [Meta.synthInstance.tryResolve] success
+      [Meta.synthInstance.newAnswer] size: 0, Preorder.{?u.320} β
+      [Meta.synthInstance.newAnswer] val: inst✝
+      [Meta.isDefEq]
+        [Meta.isDefEq.step] ?m.361 =?= inst✝
+        [Meta.isDefEq] ?m.361 [assignable] =?= inst✝ [nonassignable]
+          [Meta.isDefEq.assign]
+            [Meta.isDefEq.assign] ?m.361 := inst✝
+            [Meta.isDefEq.assign.beforeMkLambda] ?m.361 [] := inst✝
+            [Meta.isDefEq.assign.checkTypes]
+              [Meta.isDefEq.step] Preorder.{?u.320} β =?= Preorder.{?u.320} β
+              [Meta.isDefEq.step] β =?= β
+                [Meta.isLevelDefEq.step] ?u.359 =?= ?u.320
+              [Meta.isDefEq.assign.final] ?m.361 := inst✝
+        [Meta.isDefEq] inst✝ =?= inst✝ ... success
+      [Meta.synthInstance.resume] size: 1, HasLessEq.{?u.320} β <== Preorder.{?u.320} β
+      [Meta.synthInstance.newAnswer] size: 1, HasLessEq.{?u.320} β
+      [Meta.synthInstance.newAnswer] val: @Preorder.toHasLessEq.{?u.320} β inst✝
+    [Meta.synthInstance] FOUND result @Preorder.toHasLessEq.{?u.320} β inst✝
+    [Meta.synthInstance] result @Preorder.toHasLessEq.{?u.320} β inst✝
+    [Meta.isDefEq]
+      [Meta.isDefEq.step] HasLessEq.{?u.320} β =?= HasLessEq.{?u.320} β
+      [Meta.isDefEq] HasLessEq.{?u.320} β =?= HasLessEq.{?u.320} β ... success
+    [Meta.isDefEq]
+      [Meta.isDefEq.step] ?m.357 =?= @Preorder.toHasLessEq.{?u.320} β inst✝
+      [Meta.synthInstance] HasLessEq.{?u.320} β ==> HasLessEq.{?u.320} β
+        [Meta.synthInstance]
+          [Meta.synthInstance] main goal HasLessEq.{?u.320} β
+          [Meta.synthInstance.newSubgoal] HasLessEq.{?u.320} β
+          [Meta.synthInstance.globalInstances] HasLessEq.{?u.320} β, [@Preorder.toHasLessEq.{?u.366}]
+          [Meta.synthInstance.generate] instance @Preorder.toHasLessEq.{?u.366}
+          [Meta.synthInstance.tryResolve]
+            [Meta.synthInstance.tryResolve] HasLessEq.{?u.320} β =?= HasLessEq.{?u.366} ?m.367
+            [Meta.isDefEq]
+              [Meta.isDefEq.step] HasLessEq.{?u.320} β =?= HasLessEq.{?u.366} ?m.367
+              [Meta.isDefEq.step] β =?= ?m.367
+                [Meta.isDefEq] β [nonassignable] =?= ?m.367 [assignable]
+                  [Meta.isDefEq.assign]
+                    [Meta.isDefEq.assign] ?m.367 := β
+                    [Meta.isDefEq.assign.beforeMkLambda] ?m.367 [] := β
+                    [Meta.isDefEq.assign.checkTypes]
+                      [Meta.isDefEq.step] Type ?u.366 =?= Type ?u.320
+                      [Meta.isLevelDefEq.step] ?u.366 =?= ?u.320
+                      [Meta.isDefEq.assign.final] ?m.367 := β
+                [Meta.isLevelDefEq.step] ?u.320 =?= ?u.366
+              [Meta.isDefEq] HasLessEq.{?u.320} β =?= HasLessEq.{?u.320} β ... success
+            [Meta.isDefEq]
+              [Meta.isDefEq.step] ?m.365 =?= @Preorder.toHasLessEq.{?u.320} β ?m.368
+              [Meta.isDefEq] ?m.365 [assignable] =?= @Preorder.toHasLessEq.{?u.320} β ?m.368 [nonassignable]
+                [Meta.isDefEq.assign]
+                  [Meta.isDefEq.assign] ?m.365 := @Preorder.toHasLessEq.{?u.320} β ?m.368
+                  [Meta.isDefEq.assign.beforeMkLambda] ?m.365 [] := @Preorder.toHasLessEq.{?u.320} β ?m.368
+                  [Meta.isDefEq.assign.checkTypes]
+                    [Meta.isDefEq.step] HasLessEq.{?u.320} β =?= HasLessEq.{?u.320} β
+                    [Meta.isDefEq.assign.final] ?m.365 := @Preorder.toHasLessEq.{?u.320} β ?m.368
+              [Meta.isDefEq] @Preorder.toHasLessEq.{?u.320} β
+                ?m.368 =?= @Preorder.toHasLessEq.{?u.320} β ?m.368 ... success
+            [Meta.synthInstance.tryResolve] success
+          [Meta.synthInstance.newSubgoal] Preorder.{?u.320} β
+          [Meta.synthInstance.globalInstances] Preorder.{?u.320} β, []
+          [Meta.synthInstance.generate] instance inst✝
+          [Meta.synthInstance.tryResolve]
+            [Meta.synthInstance.tryResolve] Preorder.{?u.320} β =?= Preorder.{?u.320} β
+            [Meta.isDefEq]
+              [Meta.isDefEq.step] Preorder.{?u.320} β =?= Preorder.{?u.320} β
+              [Meta.isDefEq.step] β =?= β
+                [Meta.isLevelDefEq.step] ?u.366 =?= ?u.320
+              [Meta.isDefEq] Preorder.{?u.320} β =?= Preorder.{?u.320} β ... success
+            [Meta.isDefEq]
+              [Meta.isDefEq.step] ?m.368 =?= inst✝
+              [Meta.isDefEq] ?m.368 [assignable] =?= inst✝ [nonassignable]
+                [Meta.isDefEq.assign]
+                  [Meta.isDefEq.assign] ?m.368 := inst✝
+                  [Meta.isDefEq.assign.beforeMkLambda] ?m.368 [] := inst✝
+                  [Meta.isDefEq.assign.checkTypes]
+                    [Meta.isDefEq.step] Preorder.{?u.320} β =?= Preorder.{?u.320} β
+                    [Meta.isDefEq.step] β =?= β
+                      [Meta.isLevelDefEq.step] ?u.366 =?= ?u.320
+                    [Meta.isDefEq.assign.final] ?m.368 := inst✝
+              [Meta.isDefEq] inst✝ =?= inst✝ ... success
+            [Meta.synthInstance.tryResolve] success
+          [Meta.synthInstance.newAnswer] size: 0, Preorder.{?u.320} β
+          [Meta.synthInstance.newAnswer] val: inst✝
+          [Meta.isDefEq]
+            [Meta.isDefEq.step] ?m.368 =?= inst✝
+            [Meta.isDefEq] ?m.368 [assignable] =?= inst✝ [nonassignable]
+              [Meta.isDefEq.assign]
+                [Meta.isDefEq.assign] ?m.368 := inst✝
+                [Meta.isDefEq.assign.beforeMkLambda] ?m.368 [] := inst✝
+                [Meta.isDefEq.assign.checkTypes]
+                  [Meta.isDefEq.step] Preorder.{?u.320} β =?= Preorder.{?u.320} β
+                  [Meta.isDefEq.step] β =?= β
+                    [Meta.isLevelDefEq.step] ?u.366 =?= ?u.320
+                  [Meta.isDefEq.assign.final] ?m.368 := inst✝
+            [Meta.isDefEq] inst✝ =?= inst✝ ... success
+          [Meta.synthInstance.resume] size: 1, HasLessEq.{?u.320} β <== Preorder.{?u.320} β
+          [Meta.synthInstance.newAnswer] size: 1, HasLessEq.{?u.320} β
+          [Meta.synthInstance.newAnswer] val: @Preorder.toHasLessEq.{?u.320} β inst✝
+        [Meta.synthInstance] FOUND result @Preorder.toHasLessEq.{?u.320} β inst✝
+        [Meta.synthInstance] result @Preorder.toHasLessEq.{?u.320} β inst✝
+        [Meta.isDefEq]
+          [Meta.isDefEq.step] HasLessEq.{?u.320} β =?= HasLessEq.{?u.320} β
+          [Meta.isDefEq] HasLessEq.{?u.320} β =?= HasLessEq.{?u.320} β ... success
+      [Meta.isDefEq] @Preorder.toHasLessEq.{?u.320} β inst✝ =?= @Preorder.toHasLessEq.{?u.320} β inst✝ ... success
+[Meta.isDefEq]
+  [Meta.isDefEq.step] Prop =?= @?m.330 α β inst✝¹ inst✝ f
+  [Meta.isDefEq] Prop [nonassignable] =?= @?m.330 α β inst✝¹ inst✝ f [assignable]
+    [Meta.isDefEq.assign]
+      [Meta.isDefEq.assign] @?m.330 α β inst✝¹ inst✝ f := Prop
+      [Meta.isDefEq.assign.beforeMkLambda] ?m.330 [α, β, inst✝¹, inst✝, f] := Prop
+      [Meta.isDefEq.assign.checkTypes]
+        [Meta.isDefEq.step] {α : Type ?u.314} →
+          {β : Type ?u.320} →
+            [inst : Preorder.{?u.314} α] →
+              [inst : Preorder.{?u.320} β] →
+                (α → β) →
+                  Sort
+                    ?u.327 =?= {α : Type ?u.314} →
+          {β : Type ?u.320} → [inst : Preorder.{?u.314} α] → [inst : Preorder.{?u.320} β] → (α → β) → Type
+        [Meta.isDefEq.step] Type ?u.314 =?= Type ?u.314
+          [Meta.isDefEq.step] Type ?u.320 =?= Type ?u.320
+          [Meta.isDefEq.step] Preorder.{?u.314} α =?= Preorder.{?u.314} α
+          [Meta.isDefEq.step] Preorder.{?u.320} β =?= Preorder.{?u.320} β
+          [Meta.isDefEq.step] α → β =?= α → β
+          [Meta.isDefEq.step] Sort ?u.327 =?= Type
+          [Meta.isLevelDefEq.step] ?u.327 =?= 1
+        [Meta.isDefEq.assign.final] ?m.330 := fun {α} {β} [inst : Preorder.{?u.314} α] [inst : Preorder.{?u.320} β] f =>
+          Prop
+  [Meta.isDefEq] Prop =?= Prop ... success
+[Meta.synthInstance] HasLessEq.{?u.314} α ==> HasLessEq.{?u.314} α
+[Meta.synthInstance]
+  [Meta.synthInstance] main goal HasLessEq.{?u.314} α
+  [Meta.synthInstance.newSubgoal] HasLessEq.{?u.314} α
+  [Meta.synthInstance.globalInstances] HasLessEq.{?u.314} α, [@Preorder.toHasLessEq.{?u.387}]
+  [Meta.synthInstance.generate] instance @Preorder.toHasLessEq.{?u.387}
+  [Meta.synthInstance.tryResolve]
+    [Meta.synthInstance.tryResolve] HasLessEq.{?u.314} α =?= HasLessEq.{?u.387} ?m.388
+    [Meta.isDefEq]
+      [Meta.isDefEq.step] HasLessEq.{?u.314} α =?= HasLessEq.{?u.387} ?m.388
+      [Meta.isDefEq.step] α =?= ?m.388
+        [Meta.isDefEq] α [nonassignable] =?= ?m.388 [assignable]
+          [Meta.isDefEq.assign]
+            [Meta.isDefEq.assign] ?m.388 := α
+            [Meta.isDefEq.assign.beforeMkLambda] ?m.388 [] := α
+            [Meta.isDefEq.assign.checkTypes]
+              [Meta.isDefEq.step] Type ?u.387 =?= Type ?u.314
+              [Meta.isLevelDefEq.step] ?u.387 =?= ?u.314
+              [Meta.isDefEq.assign.final] ?m.388 := α
+        [Meta.isLevelDefEq.step] ?u.314 =?= ?u.387
+      [Meta.isDefEq] HasLessEq.{?u.314} α =?= HasLessEq.{?u.314} α ... success
+    [Meta.isDefEq]
+      [Meta.isDefEq.step] ?m.386 =?= @Preorder.toHasLessEq.{?u.314} α ?m.389
+      [Meta.isDefEq] ?m.386 [assignable] =?= @Preorder.toHasLessEq.{?u.314} α ?m.389 [nonassignable]
+        [Meta.isDefEq.assign]
+          [Meta.isDefEq.assign] ?m.386 := @Preorder.toHasLessEq.{?u.314} α ?m.389
+          [Meta.isDefEq.assign.beforeMkLambda] ?m.386 [] := @Preorder.toHasLessEq.{?u.314} α ?m.389
+          [Meta.isDefEq.assign.checkTypes]
+            [Meta.isDefEq.step] HasLessEq.{?u.314} α =?= HasLessEq.{?u.314} α
+            [Meta.isDefEq.assign.final] ?m.386 := @Preorder.toHasLessEq.{?u.314} α ?m.389
+      [Meta.isDefEq] @Preorder.toHasLessEq.{?u.314} α ?m.389 =?= @Preorder.toHasLessEq.{?u.314} α ?m.389 ... success
+    [Meta.synthInstance.tryResolve] success
+  [Meta.synthInstance.newSubgoal] Preorder.{?u.314} α
+  [Meta.synthInstance.globalInstances] Preorder.{?u.314} α, []
+  [Meta.synthInstance.generate] instance inst✝
+  [Meta.synthInstance.tryResolve]
+    [Meta.synthInstance.tryResolve] Preorder.{?u.314} α =?= Preorder.{?u.320} β
+    [Meta.isDefEq]
+      [Meta.isDefEq.step] Preorder.{?u.314} α =?= Preorder.{?u.320} β
+      [Meta.isDefEq.step] α =?= β
+        [Meta.isDefEq.step] α =?= β
+          [Meta.isDefEq.hint] α =?= β
+            [Meta.isDefEq.hint] β =?= α
+        [Meta.isDefEq.hint] Preorder.{?u.314} α =?= Preorder.{?u.320} β
+        [Meta.isDefEq.hint] Preorder.{?u.320} β =?= Preorder.{?u.314} α
+      [Meta.isDefEq] Preorder.{?u.314} α =?= Preorder.{?u.320} β ... failure
+    [Meta.synthInstance.tryResolve] failure
+  [Meta.synthInstance.generate] instance inst✝¹
+  [Meta.synthInstance.tryResolve]
+    [Meta.synthInstance.tryResolve] Preorder.{?u.314} α =?= Preorder.{?u.314} α
+    [Meta.isDefEq]
+      [Meta.isDefEq.step] Preorder.{?u.314} α =?= Preorder.{?u.314} α
+      [Meta.isDefEq.step] α =?= α
+        [Meta.isLevelDefEq.step] ?u.387 =?= ?u.314
+      [Meta.isDefEq] Preorder.{?u.314} α =?= Preorder.{?u.314} α ... success
+    [Meta.isDefEq]
+      [Meta.isDefEq.step] ?m.389 =?= inst✝¹
+      [Meta.isDefEq] ?m.389 [assignable] =?= inst✝¹ [nonassignable]
+        [Meta.isDefEq.assign]
+          [Meta.isDefEq.assign] ?m.389 := inst✝¹
+          [Meta.isDefEq.assign.beforeMkLambda] ?m.389 [] := inst✝¹
+          [Meta.isDefEq.assign.checkTypes]
+            [Meta.isDefEq.step] Preorder.{?u.314} α =?= Preorder.{?u.314} α
+            [Meta.isDefEq.step] α =?= α
+              [Meta.isLevelDefEq.step] ?u.387 =?= ?u.314
+            [Meta.isDefEq.assign.final] ?m.389 := inst✝¹
+      [Meta.isDefEq] inst✝¹ =?= inst✝¹ ... success
+    [Meta.synthInstance.tryResolve] success
+  [Meta.synthInstance.newAnswer] size: 0, Preorder.{?u.314} α
+  [Meta.synthInstance.newAnswer] val: inst✝¹
+  [Meta.isDefEq]
+    [Meta.isDefEq.step] ?m.389 =?= inst✝¹
+    [Meta.isDefEq] ?m.389 [assignable] =?= inst✝¹ [nonassignable]
+      [Meta.isDefEq.assign]
+        [Meta.isDefEq.assign] ?m.389 := inst✝¹
+        [Meta.isDefEq.assign.beforeMkLambda] ?m.389 [] := inst✝¹
+        [Meta.isDefEq.assign.checkTypes]
+          [Meta.isDefEq.step] Preorder.{?u.314} α =?= Preorder.{?u.314} α
+          [Meta.isDefEq.step] α =?= α
+            [Meta.isLevelDefEq.step] ?u.387 =?= ?u.314
+          [Meta.isDefEq.assign.final] ?m.389 := inst✝¹
+    [Meta.isDefEq] inst✝¹ =?= inst✝¹ ... success
+  [Meta.synthInstance.resume] size: 1, HasLessEq.{?u.314} α <== Preorder.{?u.314} α
+  [Meta.synthInstance.newAnswer] size: 1, HasLessEq.{?u.314} α
+  [Meta.synthInstance.newAnswer] val: @Preorder.toHasLessEq.{?u.314} α inst✝¹
+[Meta.synthInstance] FOUND result @Preorder.toHasLessEq.{?u.314} α inst✝¹
+[Meta.synthInstance] result @Preorder.toHasLessEq.{?u.314} α inst✝¹
+[Meta.isDefEq]
+  [Meta.isDefEq.step] HasLessEq.{?u.314} α =?= HasLessEq.{?u.314} α
+  [Meta.isDefEq] HasLessEq.{?u.314} α =?= HasLessEq.{?u.314} α ... success
+[Meta.isDefEq]
+  [Meta.isDefEq.step] @?m.385 α β inst✝¹ inst✝ f a b =?= @Preorder.toHasLessEq.{?u.314} α inst✝¹
+  [Meta.synthInstance] {α : Type ?u.314} →
+      {β : Type ?u.320} →
+        [inst : Preorder.{?u.314} α] →
+          [inst : Preorder.{?u.320} β] →
+            (α → β) →
+              {a b : α} →
+                HasLessEq.{?u.314}
+                  α ==> {α : Type ?u.314} →
+      {β : Type ?u.320} →
+        [inst : Preorder.{?u.314} α] → [inst : Preorder.{?u.320} β] → (α → β) → {a b : α} → HasLessEq.{?u.314} α
+    [Meta.synthInstance]
+      [Meta.synthInstance] main goal {α : Type ?u.314} →
+        {β : Type ?u.320} →
+          [inst : Preorder.{?u.314} α] → [inst : Preorder.{?u.320} β] → (α → β) → {a b : α} → HasLessEq.{?u.314} α
+      [Meta.synthInstance.newSubgoal] {α : Type ?u.314} →
+        {β : Type ?u.320} →
+          [inst : Preorder.{?u.314} α] → [inst : Preorder.{?u.320} β] → (α → β) → {a b : α} → HasLessEq.{?u.314} α
+      [Meta.synthInstance.globalInstances] HasLessEq.{?u.314} α, [@Preorder.toHasLessEq.{?u.415}]
+      [Meta.synthInstance.generate] instance @Preorder.toHasLessEq.{?u.415}
+      [Meta.synthInstance.tryResolve]
+        [Meta.synthInstance.tryResolve] HasLessEq.{?u.314} α =?= HasLessEq.{?u.415} (@?m.423 α β inst✝¹ inst✝ f a b)
+        [Meta.isDefEq]
+          [Meta.isDefEq.step] HasLessEq.{?u.314} α =?= HasLessEq.{?u.415} (@?m.423 α β inst✝¹ inst✝ f a b)
+          [Meta.isDefEq.step] α =?= @?m.423 α β inst✝¹ inst✝ f a b
+            [Meta.isDefEq] α [nonassignable] =?= @?m.423 α β inst✝¹ inst✝ f a b [assignable]
+              [Meta.isDefEq.assign]
+                [Meta.isDefEq.assign] @?m.423 α β inst✝¹ inst✝ f a b := α
+                [Meta.isDefEq.assign.beforeMkLambda] ?m.423 [α, β, inst✝¹, inst✝, f, a, b] := α
+                [Meta.isDefEq.assign.checkTypes]
+                  [Meta.isDefEq.step] {α : Type ?u.314} →
+                    {β : Type ?u.320} →
+                      [inst : Preorder.{?u.314} α] →
+                        [inst : Preorder.{?u.320} β] →
+                          (α → β) →
+                            {a b : α} →
+                              Type
+                                ?u.415 =?= {α : Type ?u.314} →
+                    {β : Type ?u.320} →
+                      [inst : Preorder.{?u.314} α] → [inst : Preorder.{?u.320} β] → (α → β) → {a b : α} → Type ?u.314
+                  [Meta.isDefEq.step] Type ?u.314 =?= Type ?u.314
+                    [Meta.isDefEq.step] Type ?u.320 =?= Type ?u.320
+                    [Meta.isDefEq.step] Preorder.{?u.314} α =?= Preorder.{?u.314} α
+                    [Meta.isDefEq.step] Preorder.{?u.320} β =?= Preorder.{?u.320} β
+                    [Meta.isDefEq.step] α → β =?= α → β
+                    [Meta.isDefEq.step] α =?= α
+                    [Meta.isDefEq.step] α =?= α
+                    [Meta.isDefEq.step] Type ?u.415 =?= Type ?u.314
+                    [Meta.isLevelDefEq.step] ?u.415 =?= ?u.314
+                  [Meta.isDefEq.assign.final] ?m.423 := fun {α} {β} [inst : Preorder.{?u.314} α]
+                    [inst : Preorder.{?u.320} β] f {a b} => α
+            [Meta.isLevelDefEq.step] ?u.314 =?= ?u.415
+          [Meta.isDefEq] HasLessEq.{?u.314} α =?= HasLessEq.{?u.314} α ... success
+        [Meta.isDefEq]
+          [Meta.isDefEq.step] ?m.407 =?= fun {α} {β} [inst : Preorder.{?u.314} α] [inst_1 : Preorder.{?u.320} β] f
+            {a b} => @Preorder.toHasLessEq.{?u.314} α (@?m.424 α β inst inst_1 f a b)
+          [Meta.isDefEq] ?m.407 [assignable] =?= fun {α} {β} [inst : Preorder.{?u.314} α] [inst_1 : Preorder.{?u.320} β]
+              f {a b} => @Preorder.toHasLessEq.{?u.314} α (@?m.424 α β inst inst_1 f a b) [nonassignable]
+            [Meta.isDefEq.assign]
+              [Meta.isDefEq.assign] ?m.407 := fun {α} {β} [inst : Preorder.{?u.314} α] [inst_1 : Preorder.{?u.320} β] f
+                {a b} => @Preorder.toHasLessEq.{?u.314} α (@?m.424 α β inst inst_1 f a b)
+              [Meta.isDefEq.assign.beforeMkLambda] ?m.407 [] := fun {α} {β} [inst : Preorder.{?u.314} α]
+                [inst_1 : Preorder.{?u.320} β] f {a b} =>
+                @Preorder.toHasLessEq.{?u.314} α (@?m.424 α β inst inst_1 f a b)
+              [Meta.isDefEq.assign.checkTypes]
+                [Meta.isDefEq.step] {α : Type ?u.314} →
+                  {β : Type ?u.320} →
+                    [inst : Preorder.{?u.314} α] →
+                      [inst : Preorder.{?u.320} β] →
+                        (α → β) →
+                          {a b : α} →
+                            HasLessEq.{?u.314}
+                              α =?= {α : Type ?u.314} →
+                  {β : Type ?u.320} →
+                    [inst : Preorder.{?u.314} α] →
+                      [inst : Preorder.{?u.320} β] → (α → β) → {a b : α} → HasLessEq.{?u.314} α
+                [Meta.isDefEq.assign.final] ?m.407 := fun {α} {β} [inst : Preorder.{?u.314} α]
+                  [inst_1 : Preorder.{?u.320} β] f {a b} =>
+                  @Preorder.toHasLessEq.{?u.314} α (@?m.424 α β inst inst_1 f a b)
+          [Meta.isDefEq] fun {α} {β} [inst : Preorder.{?u.314} α] [inst_1 : Preorder.{?u.320} β] f {a b} =>
+            @Preorder.toHasLessEq.{?u.314} α
+              (@?m.424 α β inst inst_1 f a
+                b) =?= fun {α} {β} [inst : Preorder.{?u.314} α] [inst_1 : Preorder.{?u.320} β] f {a b} =>
+            @Preorder.toHasLessEq.{?u.314} α (@?m.424 α β inst inst_1 f a b) ... success
+        [Meta.synthInstance.tryResolve] success
+      [Meta.synthInstance.newSubgoal] {α : Type ?u.314} →
+        {β : Type ?u.320} →
+          [inst : Preorder.{?u.314} α] → [inst : Preorder.{?u.320} β] → (α → β) → {a b : α} → Preorder.{?u.314} α
+      [Meta.synthInstance.globalInstances] Preorder.{?u.314} α, []
+      [Meta.synthInstance.generate] instance inst✝
+      [Meta.synthInstance.tryResolve]
+        [Meta.synthInstance.tryResolve] Preorder.{?u.314} α =?= Preorder.{?u.320} β✝
+        [Meta.isDefEq]
+          [Meta.isDefEq.step] Preorder.{?u.314} α =?= Preorder.{?u.320} β✝
+          [Meta.isDefEq.step] α =?= β✝
+            [Meta.isDefEq.step] α =?= β✝
+              [Meta.isDefEq.hint] α =?= β✝
+                [Meta.isDefEq.hint] β✝ =?= α
+            [Meta.isDefEq.hint] Preorder.{?u.314} α =?= Preorder.{?u.320} β✝
+            [Meta.isDefEq.hint] Preorder.{?u.320} β✝ =?= Preorder.{?u.314} α
+          [Meta.isDefEq] Preorder.{?u.314} α =?= Preorder.{?u.320} β✝ ... failure
+        [Meta.synthInstance.tryResolve] failure
+      [Meta.synthInstance.generate] instance inst✝¹
+      [Meta.synthInstance.tryResolve]
+        [Meta.synthInstance.tryResolve] Preorder.{?u.314} α =?= Preorder.{?u.314} α✝
+        [Meta.isDefEq]
+          [Meta.isDefEq.step] Preorder.{?u.314} α =?= Preorder.{?u.314} α✝
+          [Meta.isDefEq.step] α =?= α✝
+            [Meta.isDefEq.step] α =?= α✝
+              [Meta.isDefEq.hint] α =?= α✝
+                [Meta.isDefEq.hint] α✝ =?= α
+            [Meta.isDefEq.hint] Preorder.{?u.314} α =?= Preorder.{?u.314} α✝
+            [Meta.isDefEq.hint] Preorder.{?u.314} α✝ =?= Preorder.{?u.314} α
+          [Meta.isDefEq] Preorder.{?u.314} α =?= Preorder.{?u.314} α✝ ... failure
+        [Meta.synthInstance.tryResolve] failure
+      [Meta.synthInstance] failed
+    [Meta.isDefEq] @?m.385 α β inst✝¹ inst✝ f a
+      b [assignable] =?= @Preorder.toHasLessEq.{?u.314} α inst✝¹ [nonassignable]
+    [Meta.isDefEq.assign]
+      [Meta.isDefEq.assign] @?m.385 α β inst✝¹ inst✝ f a b := @Preorder.toHasLessEq.{?u.314} α inst✝¹
+      [Meta.isDefEq.assign.beforeMkLambda] ?m.385 [α,
+       β,
+       inst✝¹,
+       inst✝,
+       f,
+       a,
+       b] := @Preorder.toHasLessEq.{?u.314} α inst✝¹
+      [Meta.isDefEq.assign.checkTypes]
+        [Meta.isDefEq.step] {α : Type ?u.314} →
+          {β : Type ?u.320} →
+            [inst : Preorder.{?u.314} α] →
+              [inst : Preorder.{?u.320} β] →
+                (α → β) →
+                  {a b : α} →
+                    HasLessEq.{?u.314}
+                      α =?= {α : Type ?u.314} →
+          {β : Type ?u.320} →
+            [inst : Preorder.{?u.314} α] → [inst : Preorder.{?u.320} β] → (α → β) → {a b : α} → HasLessEq.{?u.314} α
+        [Meta.isDefEq.step] Type ?u.314 =?= Type ?u.314
+          [Meta.isDefEq.step] Type ?u.320 =?= Type ?u.320
+          [Meta.isDefEq.step] Preorder.{?u.314} α =?= Preorder.{?u.314} α
+          [Meta.isDefEq.step] Preorder.{?u.320} β =?= Preorder.{?u.320} β
+          [Meta.isDefEq.step] α → β =?= α → β
+          [Meta.isDefEq.step] α =?= α
+          [Meta.isDefEq.step] α =?= α
+          [Meta.isDefEq.step] HasLessEq.{?u.314} α =?= HasLessEq.{?u.314} α
+          [Meta.isDefEq.step] α =?= α
+            [Meta.isLevelDefEq.step] ?u.345 =?= ?u.314
+        [Meta.isDefEq.assign.final] ?m.385 := fun {α} {β} [inst : Preorder.{?u.314} α] [inst_1 : Preorder.{?u.320} β] f
+          {a b} => @Preorder.toHasLessEq.{?u.314} α inst
+  [Meta.isDefEq] @Preorder.toHasLessEq.{?u.314} α inst✝¹ =?= @Preorder.toHasLessEq.{?u.314} α inst✝¹ ... success
+
+Compilation finished at Fri Feb  5 11:06:07

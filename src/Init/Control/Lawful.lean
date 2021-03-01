@@ -24,7 +24,7 @@ attribute [simp] id_map
 
 @[simp] theorem id_map' [Functor m] [LawfulFunctor m] (x : m α) : (fun a => a) <$> x = x :=
   id_map x
-
+-- Testings
 class LawfulApplicative (f : Type u → Type v) [Applicative f] extends LawfulFunctor f : Prop where
   seqLeft_eq  (x : f α) (y : f β)     : x <* y = const β <$> x <*> y
   seqRight_eq (x : f α) (y : f β)     : x *> y = const α id <$> x <*> y

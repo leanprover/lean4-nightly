@@ -1,0 +1,42 @@
+The issue is not related to `coeSort`. The following example also doesn't work, and it doesn't use `CoeSort`.
+
+```lean
+def set (α : Type _) := α → Prop
+def set_of (f : α → Prop) : set α := f
+constant continuous (f : α → β) : Prop := false
+
+instance : Coe (set α) (Type u) := ⟨Subtype⟩
+
+variable {α : Type u} {β : Type v}
+
+def tst : Type _ :=
+  set_of λ f : α → β => continuous f
+```
+
+In Lean 4, we made the design decision that TC resolution should never assign metavariables created by other modules (e.g., the elaborator). The idea is to make sure TC should not fill "holes" it is not meant to fill.
+In Lean 3, this design decision is not strictly enforced as in Lean 4, and it produced counterintuitive behavior in the past. So, I think it is a bad idea to relax this restriction in Lean 4.
+
+`CoeFun` is defined as
+```lean
+class CoeFun (α : Sort u) (γ : outParam (α → Sort v)) where
+  coe : (a : α) → γ a
+```
+So, when we write `CoeFun (set_of λ f : α → β => continuous f) (λ _ => α → β)`, there is nothing restricting the universe `u` for the first argument. I considered the following workaround that makes `CoeFun` less general
+```lean
+class CoeFun_2 (α : Sort u) (γ : outParam (α → Sort u)) where --- the second `u` is a `v` at CoeFun
+  coe : (a : α) → γ a
+```
+However, it is too restrictive and we would not be able to write
+```lean
+structure ConstantFunction where
+  domain : Type
+  range  : Type
+  f      : domain → range
+  h      : ∀ a b, f a = f b
+
+instance : CoeFun ConstantFunction (fun s => s.domain → s.range) where
+  coe s := s.f
+```
+since `ConstantFunction` is in `Type 1` instead of `Type` (i.e., `Type 0`).
+
+My
